@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aqcxbom.myxposed">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--Xposed插件声明-->
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposeddescription" android:value="MY XPOSED PLUGIN 54"/>
+        <!--这个版本号一定要按照SDK版本，具体查看打开SDK的jar文件ASSETS目录下的VERSION文件-->
+        <meta-data android:name="xposedminversion" android:value="54"/>
+    </application>
+
+</manifest>
